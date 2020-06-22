@@ -38,10 +38,7 @@ Object.assign(inputButtonDefaultStyles, {
   },
 })
 
-const TimerDurationRadioButtonGroup = ({
-  setRestDurationInSeconds,
-  restDurationInSeconds,
-}) => {
+const TimerDurationRadioButtonGroup = ({ setRestDurationInSeconds }) => {
   const INITIAL_MINS = '3'
   const INITIAL_SECS = '0'
   const DEFAULT_REST_DURATIONS = [60, 90, 120]

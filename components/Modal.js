@@ -30,7 +30,7 @@ const Modal = ({
       onConfirm={onConfirm}
       animationType="slide"
     >
-      <View style={styles.modalViewStyles}>{children}</View>
+      <View style={modalViewStyles}>{children}</View>
     </ModalDialog>
   )
 }
